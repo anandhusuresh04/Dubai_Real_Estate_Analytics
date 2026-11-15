@@ -1,0 +1,16 @@
+# Large Data Files (Do not upload to GitHub)
+data/raw/
+data/processed/
+*.parquet
+*.csv
+
+# Jupyter Notebook Checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/*
+
+# Python Cache
+__pycache__/
+*.pyc
+
+# Environment variables
+.env
